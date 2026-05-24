@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Incremental Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Game Project 1; Incremental System</h1>
+
+    <!-- ============================
+         MAIN RESOURCE DISPLAY
+         Customize resource names here
+         ============================ -->
+    <div id="resource-display">
+        <p>Points: <span id="points">0</span></p>
+        <p>Points Per Second: <span id="pps">0</span></p>
+    </div>
+
+    <!-- ============================
+         BUTTONS FOR MANUAL GAIN
+         Customize button text & values
+         ============================ -->
+    <div id="manual-actions">
+        <button id="click-btn">Gain +1 Point</button>
+
+        <button id="super-click">Gain +10 Points</button>
+    </div>
+
+    <!-- ============================
+         UPGRADE SECTION
+         Add your own upgrades here
+         ============================ -->
+    <div id="upgrades">
+        <h2>Upgrades</h2>
+
+        <!-- Example Upgrade Template -->
+        <!-- Copy/paste this block to add more upgrades -->
+        <div class="upgrade">
+            <p>Upgrade 1: Increase PPS by +1</p>
+            <p>Cost: <span id="upgrade1-cost">10</span></p>
+            <button id="upgrade1-btn">Buy</button>
+        </div>
+
+        <!-- CUSTOM UPGRADE AREA -->
+        <!-- Insert your own upgrades here -->
+        <div class="upgrade">
+            <p>Upgrade 2: Increase PPS by +5</p>
+            <p>Cost: <span id="upgrade2-cost">100</span></p>
+            <button id="upgrade2-btn">Buy</button>
+        </div>
+
+        <div class="upgrade">
+            <p>Upgrade 3: Increase PPS by +10</p>
+            <p>Cost: <span id="upgrade3-cost">500</span></p>
+            <button id="upgrade3-btn">Buy</button>
+        </div>
+    </div>
+
+    <!-- ============================
+         PRESTIGE SYSTEM (OPTIONAL)
+         Add your own prestige logic
+         ============================ -->
+         
+    <div id="prestige">
+        <h2>Prestige</h2>
+        <p>Prestige Points: <span id="prestige-points">0</span></p>
+        <p>Requirement: 1000 Points</p>
+        <button id="prestige-btn">Prestige Reset</button>
+
+        <!-- Add custom prestige bonuses here -->
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

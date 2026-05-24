@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+#resource-display, #manual-actions, #upgrades, #prestige {
+    background: rgb(0, 0, 0);
+    padding: 15px;
+    margin: 15px auto;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid #010101;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    cursor: pointer;
+    border: 1px solid #444;
+    background: #000000;
+}
+
+button:hover {
+    background: #000000;
+}
